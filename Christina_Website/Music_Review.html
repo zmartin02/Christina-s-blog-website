@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christina's Blog</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #bbab97ff;
+        }
+
+        header {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #4f1c0dff;
+            color: #efefef;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        
+
+        img {
+            max-width: 25%;
+            max-height:15%;
+            float: left;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-evenly; 
+            background-color: #896150ff;
+            padding: 10px;
+        }
+
+        nav a {
+            font-family: "Times New Roman", Times, serif;
+            color: #efefef;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .banner1 {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #423730ff;
+            text-decoration: none;
+            padding: 5px;
+            color: #fff;
+        }
+        .banner2 {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #4f1c0dff;
+            text-decoration: none;
+            padding: 5px;
+            color: #efefef;
+        }
+
+        .banner2 a {
+            color: #efefef;
+        }
+        .banner2 a:hover {
+            color: #cccccc;
+        }
+        .column {
+            
+            width: 80%;
+           
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: inline;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .image-row {
+            display: flex;
+            justify-content: space-between; /* this will add equal space between each image */
+        }
+        .sidenav {
+            height: 400px; /* Full-height: remove this if you want "auto" height */
+            width: 160px; /* Set the width of the sidebar */
+            z-index: 1; /* Stay on top */
+            top: 0; /* Stay at the top */
+            left: 0;
+            background-color: #4f1c0dff; /* Banner color */
+            overflow-x: hidden;  /*Disable horizontal scroll */
+            padding-top: 20px;
+            float: left;
+            color: #efefef;
+        }
+
+            /* The navigation menu links */
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 15px;
+            color: #efefef;
+            display: block;
+        }
+
+            /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover {
+            color: #f1f1f19c;
+        }
+
+            /* Style page content */
+        .main {
+            overflow: hidden;
+            margin-left: 160px; /* Same as the width of the sidebar */
+            padding: 0px 10px;
+        }
+
+            /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
+        main {
+            color:#efefef;
+            font-family: "Times New Roman", Times, serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #505c49ff;
+            float:right
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        article {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+
+        footer {
+            font-family: "Times New Roman", Times, serif;
+            text-align: center;
+            padding: 10px;
+            background-color: #423730ff;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp pieces of a Self-proclaimed writer</h1>
+    </header>
+
+    <nav>
+        <a href="./index.html">home</a>
+        <a href="./Book_review.html">book reviews</a>
+        <a href="./Travel.html">travel</a>
+        <a href="./Music_Review.html">music</a>
+        <a href="./Journals.html">journals</a>
+        <a href="./about.html">about</a>
+    </nav>
+
+    <div class="banner1">
+        <h1> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Music</h1>
+    </div>
+    
+    <div class="banner2">
+        <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Start reading... &nbsp &nbsp &nbsp &nbsp &nbsp coming soon</p>
+    </div>
+
+    <div class="image-row">
+        <img src="music1.jpeg" alt="Pic4">
+        <img src="music2.jpeg" alt="Pic1">
+        <img src="music3.jpg" alt="Pic2">
+        <img src="music4.jpg" alt="Pic3">
+    </div>
+    
+    <main>
+        <user>
+            
+            <div class="container">
+                <div class="text">
+                  <p> One thing that has the tendency of bringing us together is music. Between lyrics and performance, music is so unique in its affect over our emotions.</p>
+                    <p> Ever have a song make you cry?</p>
+                    <p> A song make you smile?</p>
+                    <p>Make you feel understood?</p>
+                    <p>There is something so universal and lovely about music.</p>
+                    <p>Here I will curate playlists and respond to music that is special to me. I hope it is special to you too.</p>
+                <p>&nbsp </p>
+                <p>&nbsp </p>
+                <p>xoxo-</p>
+                <p style="display:inline-block;">
+                    <img src="smooch.jpg">
+                  </p>
+                <p>Christina Baggitt</p>
+                </div>
+              </div>
+            
+        </user>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christina Baggitt's Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
